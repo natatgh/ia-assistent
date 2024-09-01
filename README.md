@@ -5,23 +5,23 @@ Um assistente de IA básico que utiliza reconhecimento de fala, síntese de fala
 
 ## Configuração
 
-1. Crie um ambiente virtual:
+1. **Crie um ambiente virtual**:
    ```bash
    python -m venv venv
    source venv/bin/activate  # ou venv\Scripts\activate no Windows
    ```
 
-2. Instale as dependências:
+2. **Instale as dependências**:
    ```bash
    pip install -r requirements.txt
    ```
 
-3. Execute o assistente:
+3. **Execute o assistente**:
    ```bash
    python src/main.py
    ```
 
-## Estrutura de Pastas
+## Estrutura do Projeto
 
 ```plaintext
 assistente_ia/
@@ -56,16 +56,14 @@ assistente_ia/
     ├── test_nlp.py
 ```
 
-## Funcionalidades
+## Como Contribuir
 
-- **Reconhecimento de Fala**: Utiliza a biblioteca `SpeechRecognition` para ouvir comandos de voz.
-- **Síntese de Fala**: Utiliza `pyttsx3` para converter texto em fala.
-- **Processamento de Linguagem Natural**: Utiliza intents definidas em um arquivo JSON para entender e responder a comandos.
-
-## Contribuições
-
-Contribuições são bem-vindas! Sinta-se à vontade para abrir issues e pull requests.
+1. **Faça um fork do repositório**.
+2. **Crie uma branch para a sua feature** (`git checkout -b minha-feature`).
+3. **Faça commit das suas alterações** (`git commit -am 'Adiciona nova feature'`).
+4. **Faça push para a branch** (`git push origin minha-feature`).
+5. **Abra um Pull Request**.
 
 ## Licença
 
-Este projeto está sob a licença MIT. Veja o arquivo `LICENSE` para mais detalhes.
+Este projeto está sob a licença MIT. Veja o arquivo LICENSE para mais detalhes.
