@@ -1,0 +1,57 @@
+{
+    "intents": [
+      {
+        "tag": "saudacao",
+        "patterns": ["Olá", "Oi", "Bom dia", "Boa tarde", "Boa noite"],
+        "responses": ["Olá!", "Oi, como posso ajudar?", "Bom dia!", "Boa tarde!", "Boa noite!"]
+      },
+      {
+        "tag": "despedida",
+        "patterns": ["Tchau", "Até mais", "Até logo", "Adeus", "Falou"],
+        "responses": ["Até logo!", "Tchau, tenha um ótimo dia!", "Até mais!", "Adeus!"]
+      },
+      {
+        "tag": "agradecimento",
+        "patterns": ["Obrigado", "Obrigada", "Valeu", "Agradeço", "Muito obrigado"],
+        "responses": ["De nada!", "Você é bem-vindo!", "Estou aqui para ajudar!", "Disponha!"]
+      },
+      {
+        "tag": "tempo",
+        "patterns": [
+          "Como está o tempo?",
+          "Qual a previsão do tempo?",
+          "Vai chover hoje?",
+          "Está quente?",
+          "Hoje vai chover?",
+          "Está frio?",
+          "Qual a temperatura agora?",
+          "Está nublado?"
+        ],
+        "responses": [
+          "Hoje está ensolarado.",
+          "Há previsão de chuva para hoje.",
+          "Está um dia nublado.",
+          "O tempo está quente e ensolarado.",
+          "Parece que vai chover mais tarde.",
+          "Está frio e ventando.",
+          "A previsão indica tempo fechado com possibilidade de chuva."
+        ]
+      },
+      {
+        "tag": "nome",
+        "patterns": ["Qual é o seu nome?", "Como você se chama?", "Quem é você?"],
+        "responses": ["Eu sou seu assistente virtual.", "Me chamo IA, seu assistente.", "Sou um assistente criado para ajudar você."]
+      },
+      {
+        "tag": "hora",
+        "patterns": ["Que horas são?", "Pode me dizer a hora?", "Qual é a hora agora?"],
+        "responses": ["Agora são [hora atual].", "O horário atual é [hora atual].", "São [hora atual]."]
+      },
+      {
+        "tag": "ajuda",
+        "patterns": ["Pode me ajudar?", "Preciso de ajuda", "Você pode me ajudar com algo?"],
+        "responses": ["Claro, estou aqui para ajudar! O que você precisa?", "Com certeza! Como posso ajudar?", "Estou à disposição para te ajudar!"]
+      }
+    ]
+  }
+  
